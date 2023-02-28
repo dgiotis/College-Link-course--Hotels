@@ -1,0 +1,162 @@
+
+/*body{
+    background: #000;
+    color:#fff;
+}
+body a{
+    color: #fff;
+}
+body.full-booked a{
+    color: red;
+}
+body section #secondary-section a{
+    color: red;
+}
+a{
+    color: #d94810 !important;
+}
+form{
+    background:white ;
+    color: gray;
+}
+*/
+
+
+/*---------------------GLOBAL ELEMENTS */
+@font-face {
+    font-family: "RobotoR";
+    font-family: 400;
+    src: url("assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "RobotoL";
+    font-weight: 300;
+    src: url("assets/fonts/Roboto-Light.ttf");
+}
+
+
+body{
+    background: #fff;
+    color: #000;
+    font-family: 'RobotoL', sans-serif;
+    font-weight: 300;
+}
+a,
+a:active,
+a:visited,
+a:focus{
+    color: #ff5500;
+}
+a:hover{
+    color: #a20d01;
+}
+
+button,
+input[type="button"]{
+    background:#f50;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #ca4502;
+    cursor: pointer;
+}
+    button:hover,
+    input[type="button"]:hover{
+        background: #a20d01;
+    }
+    button a,
+    button a:active,
+    button a:visited,
+    button a:focus{
+        color: #fff;
+        text-decoration: none;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "RobotoR";
+}
+body > footer{
+    background: #ccc;
+    border-top: 3px solid #808080;
+}
+    body > footer p{
+        color: #616161;
+        font-size: 14px;
+        text-align: center;
+
+    }
+ body > header{
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.25);
+
+ }
+    body > header .main-logo{
+        color: #000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------HOMEPAGE */
+
+/* section.hero{
+    background: url("assets/images/hello-image.jpg") no-repeat center center;
+    
+} */
+section.hero form{
+    
+}
+section.hero h1{
+    color: #fff;
+    text-shadow: 2px 2px 2px red;
+    text-align: center;
+}
+
+/*-------------------------HOTEL LIST*/
+
+.page-title{
+    background: #ff5500;
+    border-radius: 4px;  
+}
+    .page-title h2{
+        color: #fff;
+        font-weight: 300;
+        font-family: "RobotoL";
+    }
+
+article.hotel h1{
+    color: #000;
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+article.hotel h2{
+    color:#666;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: -2px;
+
+}
+article.hotel p{
+    color: #333;
+    font-size:16px;
+    line-height: 24px;
+    word-break: break-all;
+}
+
+
+
+
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width" intial-scale="1.0">
+    <meta name="robots" content="noindex,nofollow" >
+    <title>Hello World</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+<body>
+    <header>
+        <p class="main-logo">Hotels</p>
+    </header>
+    <main class="main-content view_hotel page-home">
+        <nav></nav>
+        <!--Main section START-->
+        <section class="hero">
+            <!--This is the page's title-->
+            <h1>Hellow world!</h1>
+            <!--Form Section START-->
+            <form action="index.php" method="POST">
+                <fieldset class="introduction" id="form-introduction">
+                    <div class="form-group">
+                        <label for="firstName" ><span style="color:red;"></span>First Name:</label>
+                        <input id="firstName"value="" placeholder="ex. John Doe" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName"><span style="color:red;"></span>Last Name:</label>
+                        <input id="lastName"value="" placeholder="ex.John Doe" type="text">
+                    </div>
+                </fieldset>
+                <div class="form-group email">
+                    <label for="emailAddress"><span style="color:red"></span>Email:</label>
+                    <input id="emailAddress" value="" placeholder="ex. example@example.com" type="email">
+                </div>
+                <div class="form-group password">
+                    <label for="formPassword"><span style="color: red;"></span>Password:</label>
+                    <input name="formPassword" id="formPassword" value="" type="password">
+                </div>
+                <div class="form-group comments">
+                    <label for="formComments"><span style="color: red;"></span>Comments:</label>
+                    <textarea id="formComments" name="formComments" placeholder="Your comments here"></textarea> 
+                </div>
+                <div class="form-group gender">
+                    <label for="formGender">Gender:</label>
+                    <select id="formGender">
+                        <option value="null" selected>Choose your gender:</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+
+                </div>
+                <fieldset class="form-group">
+                    <label for="formNewsletter">Sign up to our newsLetter</label>
+                    <input id="formNewsletter_yes" type="radio">
+                    <input id="formNewsletter_no" type="radio">
+                </fieldset>
+                <div class="form-group">
+                    <label for="agreeTerms">I have undertstood and agree with the Terms of Service:</label>
+                    <input id="agreeTerms" name="agreeTerms"type="checkbox">
+
+                </div>
+                <div class="action">
+                    <input name="submit" id="submitButton"type="button" value="Submit">
+                </div>
+
+            </form>
+            <!--Form Section END-->
+        </section>
+        <section>
+            <!--Hero Section START-->
+            <section class="hero">
+                <section class="image-container">
+                    <img src="assets/images/hello-image.jpg" alt="" width="100%" height="auto">
+                </section>
+                <section class="multimedia">
+                    <section class="audio">    
+                        <h4>Listen to this</h4>
+                        <audio controls>
+                            <source src="assets/Sounds/wiz.mp3" type="audio/mp3">
+                        </audio>
+                    </section>
+                    <section class="video">
+                        <h4>Watch this video first!</h4>
+                        <video controls>
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        </video>
+                    </section>
+                </section>
+            </section>
+            <!--Hero section END!-->
+            
+            <!--Menu section START-->
+            <section class="menu">
+                <div class="menu primary-menu">
+                    <ul>
+                        <li><a href="index.html" >Home</a></li>
+                        <li>
+                            <a href="about.html">About</a>
+                            <ul>
+                                <li><a href="history.html">History</a></li>
+                                <li>Team</li>
+                                <li>Careers</li>
+                            </ul>
+                        </li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="menu secondary-menu">
+                    <ol>
+                        <li><h4>Sort by Name</h4></li>
+                        <li>Price sort >100</li>
+                        <li>Filter by Location
+                            <ul>
+                                <li>Thessaloniki</li>
+                                <li>Athens</li>
+                            </ul>    
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            <!--Menu section END-->
+        </section>
+        <!--Main section END-->
+        <section id="secondary-section">
+            <div>
+                <h2><a href="">This is my awesome site</a></h2>
+                <section class="external-multimedia">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nMVbfoteKdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe style="border-radius:19px" src="https://open.spotify.com/embed/playlist/22abQlBaelhXcKUdrqdOMu?utm_source=generator" width="400px" height="350" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </section>
+            </div>
+            <div>
+                <button><a href="">Click me</a></button>
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="2" fill="green"></circle>
+
+                </svg>
+
+            </div>
+            <div class="page-title">
+                <h2>Search Results</h2>
+            </div>
+            <section class="hotel-list">
+                <article class="hotel">
+                    <h1>Hotel Title</h1>
+                    <h2>Location</h2>
+                    <p><em> This is my awesome site </em> <strong>This is my awesome site</strong><span style="color:#555 ;"> This is my awesome site </span>This is my awesome siteThis is my awesome site This is my awesome site This is my awesome site</strong></a> </p>
+                    <h3>This is heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                    <blockquote></blockquote>
+                    <button><a href="">Go to room page</a></button>
+                </article>
+                <article class="hotel">
+                    <h1>Hotel Title</h1>
+                    <h2>Location</h2>
+                    <p><em> This is my awesome site </em> <strong>This is my awesome site</strong><span style="color:#555 ;"> This is my awesome site </span>This is my awesome site This is my awesome site This is my awesome site This is my awesome site</strong></a> </p>
+                    <h3>This is heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                    <blockquote></blockquote>
+                    <button><a href="">Go to room page</a></button>
+                </article>
+                <article class="hotel">
+                    <h1>Hotel Title</h1>
+                    <h2>Location</h2>
+                    <p><em> This is my awesome site </em> <strong>This is my awesome site</strong><span style="color:#555 ;"> This is my awesome site </span>This is my awesome site This is my awesome site This is my awesome site This is my awesome site</strong></a> </p>
+                    <h3>This is heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                    <blockquote></blockquote>
+                    <button><a href="">Go to room page</a></button>
+                </article>
+            </section>
+
+        </section>
+        
+    </main>
+    <footer>
+        <p>(C) Copyright Dev's Rabbit Mind </p>
+    </footer>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet"> 
+</body>
+</html>
